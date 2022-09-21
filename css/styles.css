@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: azure;
+    outline: none;
+    border: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: blueviolet;
+    text-align: center;
+}
+
+/*comentario*/
