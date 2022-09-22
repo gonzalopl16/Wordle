@@ -52,16 +52,16 @@ h1 {
     cursor: pointer;
 }
 
-.green {
-    background-color: #6AAA64;
-
+.gray {
+    background-color: #787c7e;
 }
 
 .gold {
     background-color: #C9B458;
 }
 
-.gray {
-    background-color: #787c7e;
+.green {
+    background-color: #6AAA64;
+
 }
 
