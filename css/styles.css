@@ -7,7 +7,6 @@ h1 {
 }
 
 .main-container {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,4 +31,37 @@ h1 {
     text-align: center;
 }
 
-/*comentario*/
+.result {
+    text-align: center;
+    font-size: 36px;
+}
+
+.button {
+    width: 170px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #6AAA64;
+    font-size: 32px;
+    color: white;
+}
+
+.button:hover{
+    border: 3px solid #6AAA64;
+    background-color: #fff;
+    color: #6AAA64;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #6AAA64;
+
+}
+
+.gold {
+    background-color: #C9B458;
+}
+
+.gray {
+    background-color: #787c7e;
+}
+
