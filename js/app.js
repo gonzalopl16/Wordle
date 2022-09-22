@@ -22,7 +22,7 @@ function generar(){
     .then(data => {
         console.log(data)
         let palabra = data[0];
-        if(palabra.length <= 6){
+        if(palabra.length <= 5){
             let palabraArray = palabra.toUpperCase().split('');
 
             let actualRow = document.querySelector('.row')
@@ -74,11 +74,13 @@ function generar(){
                                 })
     
                                 //Crear una nueva fila
-                                let actualRow = createRow();
-                                if (actualRow) {
-                                    drawSquares(actualRow);
-                                    listenInput(actualRow);
-                                    addFocus(actualRow);
+                                antugo = document.getElementById(rowId);
+                                console.log(antugo)
+                                let newActualRow = createRow();
+                                if (newActualRow) {
+                                    drawSquares(newActualRow);
+                                    listenInput(newActualRow);
+                                    addFocus(newActualRow);
                                 } else {
                                     return;
                                 }
